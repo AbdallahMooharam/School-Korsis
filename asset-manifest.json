@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/School-Korsis/static/css/main.581673fe.css",
-    "main.js": "/School-Korsis/static/js/main.b6d49b97.js",
+    "main.js": "/School-Korsis/static/js/main.1c8531e2.js",
     "static/js/488.62c5e3a2.chunk.js": "/School-Korsis/static/js/488.62c5e3a2.chunk.js",
     "static/media/imagee.png": "/School-Korsis/static/media/imagee.a7db8cdd34c27fa67f53.png",
     "static/media/araby ai images.png": "/School-Korsis/static/media/araby ai images.99656474b1c1bd0a8f11.png",
     "index.html": "/School-Korsis/index.html",
     "main.581673fe.css.map": "/School-Korsis/static/css/main.581673fe.css.map",
-    "main.b6d49b97.js.map": "/School-Korsis/static/js/main.b6d49b97.js.map",
+    "main.1c8531e2.js.map": "/School-Korsis/static/js/main.1c8531e2.js.map",
     "488.62c5e3a2.chunk.js.map": "/School-Korsis/static/js/488.62c5e3a2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.581673fe.css",
-    "static/js/main.b6d49b97.js"
+    "static/js/main.1c8531e2.js"
   ]
 }
