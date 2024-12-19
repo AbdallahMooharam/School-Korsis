@@ -1,0 +1,57 @@
+/* الوضع المظلم */
+body.dark {
+  background-color: #1a202c;
+  color: #e2e8f0;
+}
+
+body.dark .bg-gray-800 {
+  background-color: #2d3748;
+}
+
+body.dark .bg-yellow-500 {
+  background-color: #d69e2e;
+}
+
+body.dark .bg-yellow-600 {
+  background-color: #d69e2e;
+}
+
+body.dark .text-white {
+  color: #f7fafc;
+}
+
+
+/* في ملف CSS */
+nav img {
+  height: 50px; /* يمكن تعديل الحجم حسب الحاجة */
+  margin-right: 10px; /* المسافة بين اللوجو والنص */
+}
+
+
+
+
+/* هذا الكود سيتحكم في تصميم Navbar في حال كان المستخدم في وضع الهاتف */
+@media (max-width: 767px) {
+  nav {
+    background-color: #1a202c; /* لون الخلفية في الوضع الداكن */
+  }
+
+  .text-3xl {
+    font-size: 1.5rem; /* تصغير حجم النص في القائمة */
+  }
+
+  .container {
+    padding: 10px;
+  }
+
+  .hidden.md\\:flex {
+    display: none; /* إخفاء القوائم عند الشاشات الصغيرة */
+  }
+}
+
+/* يمكن إضافة المزيد من التخصيصات حسب الحاجة */
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

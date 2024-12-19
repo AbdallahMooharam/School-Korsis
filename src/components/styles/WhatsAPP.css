@@ -1,0 +1,32 @@
+/* التعديل على الأيقونة لجعلها تظهر */
+.whatsapp-icon {
+    position: fixed;
+    bottom: 20px;  /* المسافة من الأسفل */
+    right: 20px;   /* المسافة من اليمين */
+    z-index: 9999; /* التأكد من أن الأيقونة تظهر فوق باقي المحتويات */
+    cursor: pointer;
+    width: 60px;    /* عرض الأيقونة */
+    height: 60px;   /* ارتفاع الأيقونة */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .whatsapp-icon a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+  }
+  
+  /* إضافة تأثير التحريك للأيقونة عند السحب */
+  .whatsapp-icon {
+    transition: all 0.3s ease;
+  }
+  
+  .whatsapp-icon a {
+    background-color: #25D366; /* اللون الأخضر الخاص بـ WhatsApp */
+    border-radius: 50%; /* شكل دائري */
+  }
+  
